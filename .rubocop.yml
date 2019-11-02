@@ -1,0 +1,6 @@
+inherit_from: ./config/default.yml
+
+Naming/FileName:
+  Enabled: true
+  Exclude:
+    - 'gotoinc-standard.gemspec'

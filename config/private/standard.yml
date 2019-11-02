@@ -1,0 +1,29 @@
+require:
+  - standard/cop/semantic_blocks
+
+inherit_gem:
+  standard: config/base.yml
+
+AllCops:
+  TargetRubyVersion: 2.6.5
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: no_comma
+
+Style/EmptyMethod:
+  EnforcedStyle: compact
+
+Style/SingleLineMethods:
+  AllowIfMethodIsEmpty: true
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: keyword
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: space

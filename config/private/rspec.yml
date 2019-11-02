@@ -1,0 +1,10 @@
+require:
+  - rubocop-rspec
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'spec/**/*'
+
+Naming/FileName:
+  Exclude:
+    - 'spec/**/*'

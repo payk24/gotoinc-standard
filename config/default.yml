@@ -1,0 +1,23 @@
+inherit_from:
+  - ./private/rspec.yml
+  - ./private/rails.yml
+  - ./private/standard.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 30
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Naming/FileName:
+  ExpectMatchingDefinition: true

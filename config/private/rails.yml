@@ -1,0 +1,36 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  TargetRailsVersion: 6.0
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+    - 'tmp/**/*'
+    - 'bin/**/*'
+    - 'builds/**/*'
+    - 'plugins/**/*'
+  CacheRootDirectory: tmp
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'config.ru'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'app/views/**/*'
+#    - 'config/**/*'
+
+Naming/FileName:
+  Exclude:
+    - 'db/**/*'
+    - 'features/**/*'
+    - 'config/**/*'
+    - 'app/admin/**/*'
+    - 'app/views/**/*'
+
+Rails/ApplicationRecord:
+  Enabled: true
+
+
+
+

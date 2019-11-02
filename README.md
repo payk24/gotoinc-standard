@@ -1,4 +1,5 @@
 # Gotoinc::Standard
+[![Gem Version](https://badge.fury.io/rb/gotoinc-standard.svg)](https://badge.fury.io/rb/gotoinc-standard)
 
 Rubocop configuration to be used in GoToInc projects.
 

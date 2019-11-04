@@ -27,6 +27,8 @@ Naming/FileName:
     - 'config/**/*'
     - 'app/admin/**/*'
     - 'app/views/**/*'
+    - 'config.ru'
+    - 'lib/tasks/**/*'
 
 Rails/ApplicationRecord:
   Enabled: true

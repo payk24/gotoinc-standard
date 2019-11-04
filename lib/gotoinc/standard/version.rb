@@ -3,7 +3,7 @@
 module Gotoinc
   module Standard
     module Version
-      STRING = '1.0.0'
+      STRING = '1.0.1'
 
       MSG = '%<version>s (using Parser %<parser_version>s, running on ' \
             '%<ruby_engine>s %<ruby_version>s %<ruby_platform>s)'

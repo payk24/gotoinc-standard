@@ -22,8 +22,17 @@ Style/EmptyMethod:
 Style/SingleLineMethods:
   AllowIfMethodIsEmpty: true
 
+Style/WordArray:
+  Enabled: true
+
+Style/SymbolArray:
+  Enabled: true
+
 Layout/EndAlignment:
   EnforcedStyleAlignWith: keyword
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: space
+
+Bundler/OrderedGems:
+  Enabled: true
